@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #818181;
+    color: black;
+}
+
+
+#container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    /* min-height: 45vh; */
+    width: 40vh;
+}
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#inputField{
+    border: none;
+    width: 70%;
+    background-color: rgb(214, 237, 237);
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 211, 211);
+    padding: 0 10px 0 10px;
+    font-size: medium;
+}
+
+
+#taskBox{
+    margin: 20px;
+}
+
+
+
+
+#addBtn{
+    width: 60px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(83, 81, 84, 0.482);
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#addBtn:hover{
+    background-color: #222222;
+}
+
+
+#resetBtn{
+    width: 50px;
+    height: 20px;
+    font-size: small;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(88, 44, 109, 0.562);
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bolder; 
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+#resetBtn:hover{
+    background-color: #4228289a;
+}
+
+
+
+
+
+
+
+
+#taskBox .task{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(218, 196, 196);
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: baseline; */
+    align-items: center;
+    font-size: large;
+    margin-top: 20px;
+
+}
+
+#taskBox input{
+    height: 50px;
+    margin: 10px 30px 10px 10px;
+}
+
+#taskBox input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+}
+
+
+
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 70%;
+}
+
+
+
+
+  
